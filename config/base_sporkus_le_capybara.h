@@ -10,6 +10,7 @@
 #define SYM 3
 #define MED 4
 #define QWERTY_BASE
+#define CONFIG_ZMK_COMBO_MAX_COMBOS_PER_KEY 4
 
 // &lt {
 //     quick_tap_ms = <170>;
