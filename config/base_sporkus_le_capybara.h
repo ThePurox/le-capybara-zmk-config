@@ -1,14 +1,15 @@
 #include "keys_de.h"
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define APT 0
-#define NUM 1
-#define NAV 2
+#define NAV 1
+#define NUM 2
 #define SYM 3
-#define DE 4
+#define MED 4
+#define QWERTY_BASE
 
 // &lt {
 //     quick_tap_ms = <170>;
