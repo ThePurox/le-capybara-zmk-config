@@ -9,11 +9,7 @@
 #define NUM 2
 #define SYM 3
 #define MED 4
-/* #define QWERTY_BASE */
-
-// &lt {
-//     quick_tap_ms = <170>;
-// };
+#define QWERTY_BASE
 
 &caps_word {
     continue-list = <UNDERSCORE MINUS BSPC LSHFT RSHFT>;
@@ -104,7 +100,7 @@
             #binding-cells = <2>;
             // flavor = "tap-preferred";
             flavor = "balanced";
-            tapping-term-ms = <150>;
+            tapping-term-ms = <170>;
             quick-tap-ms = <100>;
             // global-quick-tap;
             bindings = <&kp>, <&kp>;
@@ -117,7 +113,7 @@
             #binding-cells = <2>;
             // flavor = "tap-preferred";
             flavor = "balanced";
-            tapping-term-ms = <150>;
+            tapping-term-ms = <170>;
             quick-tap-ms = <100>;
             // global-quick-tap;
             bindings = <&kp>, <&kp>;
@@ -131,7 +127,7 @@
             #binding-cells = <2>;
             // flavor = "tap-preferred";
             flavor = "balanced";
-            tapping-term-ms = <150>;
+            tapping-term-ms = <170>;
             quick-tap-ms = <100>;
             // global-quick-tap;
             bindings = <&mo &kp>, <&kp>;
