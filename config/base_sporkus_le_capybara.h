@@ -71,6 +71,11 @@
         };
         combo_enter {
           timeout-ms = <40>;
+          key-positions = <11 13>;
+          bindings = <&macro_sch>;
+        };
+        combo_enter {
+          timeout-ms = <40>;
           key-positions = <27 26>;
           bindings = <&kp ENTER>;
         };
