@@ -9,7 +9,7 @@
 #define NUM 2
 #define SYM 3
 #define MED 4
-#define QWERTY_BASE
+/* #define QWERTY_BASE */
 
 &caps_word {
     continue-list = <UNDERSCORE MINUS BSPC LSHFT RSHFT>;
