@@ -19,11 +19,32 @@
 / {
     combos {
         compatible = "zmk,combos";
-/* parentheticals */
+        /* Umlaute */
+        combo_ue {
+          timeout-ms = <40>;
+          key-positions = <8 32>;
+          bindings = <&kp DE_UE>;
+        };
+        combo_oe {
+          timeout-ms = <40>;
+          key-positions = <19 32>;
+          bindings = <&kp DE_OE>;
+        };
+        combo_ae {
+          timeout-ms = <40>;
+          key-positions = <17 32>;
+          bindings = <&kp DE_UE>;
+        };
+        combo_sz {
+          timeout-ms = <40>;
+          key-positions = <11 32>;
+          bindings = <&kp DE_SZ>;
+        };
+        /* parentheticals */
         combo_lbrc {
-            timeout-ms = <40>;
-            key-positions = <1 11>;
-            bindings = <&kp DE_LBRC>;
+          timeout-ms = <40>;
+          key-positions = <1 11>;
+          bindings = <&kp DE_LBRC>;
         };
         combo_lbkt {
             timeout-ms = <40>;
