@@ -19,6 +19,42 @@
 / {
     combos {
         compatible = "zmk,combos";
+        /* atp-combos */
+        combo_v {
+          timeout-ms = <40>;
+          key-positions = <1 2>;
+          bindings = <&kp DE_V>;
+        };
+        combo_q {
+          timeout-ms = <40>;
+          key-positions = <2 3>;
+          bindings = <&kp DE_Q>;
+        };
+        combo_b {
+          timeout-ms = <40>;
+          key-positions = <12 3>;
+          bindings = <&kp DE_B>;
+        };
+        combo_k {
+          timeout-ms = <40>;
+          key-positions = <12 13>;
+          bindings = <&kp DE_K>;
+        };
+        combo_z {
+          timeout-ms = <40>;
+          key-positions = <21 22>;
+          bindings = <&kp DE_Z>;
+        };
+        combo_j {
+          timeout-ms = <40>;
+          key-positions = <17 6>;
+          bindings = <&kp DE_J>;
+        };
+        combo_x {
+          timeout-ms = <40>;
+          key-positions = <17 16>;
+          bindings = <&kp DE_J>;
+        };
         /* Umlaute */
         combo_ue {
           timeout-ms = <40>;
