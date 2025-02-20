@@ -53,7 +53,7 @@
         combo_x {
           timeout-ms = <40>;
           key-positions = <17 16>;
-          bindings = <&kp DE_J>;
+          bindings = <&kp DE_X>;
         };
         /* Umlaute */
         combo_ue {
