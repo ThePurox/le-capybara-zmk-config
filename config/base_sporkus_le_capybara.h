@@ -69,7 +69,7 @@
           key-positions = <17 16>;
           bindings = <&kp DE_X>;
         };
-        combo_enter {
+        combo_sch {
           timeout-ms = <40>;
           key-positions = <11 13>;
           bindings = <&macro_sch>;
