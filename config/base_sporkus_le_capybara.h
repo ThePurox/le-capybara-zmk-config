@@ -55,6 +55,11 @@
           key-positions = <17 16>;
           bindings = <&kp DE_X>;
         };
+        combo_enter {
+          timeout-ms = <40>;
+          key-positions = <27 26>;
+          bindings = <&kp DE_ENTER>;
+        };
         /* Umlaute */
         combo_ue {
           timeout-ms = <40>;
