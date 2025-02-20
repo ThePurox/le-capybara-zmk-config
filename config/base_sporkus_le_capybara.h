@@ -76,47 +76,6 @@
           key-positions = <11 32>;
           bindings = <&kp DE_SZ>;
         };
-        /* parentheticals */
-        combo_lbrc {
-          timeout-ms = <40>;
-          key-positions = <1 11>;
-          bindings = <&kp DE_LBRC>;
-        };
-        combo_lbkt {
-            timeout-ms = <40>;
-            key-positions = <2 12>;
-            bindings = <&kp DE_LBKT>;
-        };
-        combo_lpar {
-            timeout-ms = <40>;
-            key-positions = <3 13>;
-            bindings = <&kp DE_LPAR>;
-        };
-        combo_lt {
-            timeout-ms = <40>;
-            key-positions = <4 14>;
-            bindings = <&kp DE_LT>;
-        };
-        combo_gt {
-            timeout-ms = <40>;
-            key-positions = <5 15>;
-            bindings = <&kp DE_GT>;
-        };
-        combo_rpar {
-            timeout-ms = <40>;
-            key-positions = <6 16>;
-            bindings = <&kp DE_RPAR>;
-        };
-        combo_rbkt {
-            timeout-ms = <40>;
-            key-positions = <7 17>;
-            bindings = <&kp DE_RBKT>;
-        };
-        combo_rbrc {
-            timeout-ms = <40>;
-            key-positions = <8 18>;
-            bindings = <&kp DE_RBRC>;
-        };
 /* caps */
         combo_caps-word {
             timeout-ms = <40>;
