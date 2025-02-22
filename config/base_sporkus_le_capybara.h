@@ -93,7 +93,7 @@
         combo_ae {
           timeout-ms = <40>;
           key-positions = <17 32>;
-          bindings = <&kp DE_UE>;
+          bindings = <&kp DE_AE>;
         };
         combo_sz {
           timeout-ms = <40>;
